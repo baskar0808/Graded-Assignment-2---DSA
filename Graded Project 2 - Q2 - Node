@@ -20,6 +20,7 @@ public class Node
 	
 	processBST(root.left);
 	Node rightNode = root.right;
+	Node leftNode = root.left;
 	
 	if(newHead == null)
 	{
